@@ -23,7 +23,7 @@ export default function PostCard({ title, description, image, slug }: Prop) {
       <Card className="">
         <CardHeader>
           <Image src={image} alt="blog post" height={500} width={500}></Image>
-          <CardTitle>{title}</CardTitle>
+          <CardTitle>{title} </CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>
         <CardContent></CardContent>
